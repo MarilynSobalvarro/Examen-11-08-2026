@@ -6,7 +6,7 @@ DM Sans - button
 Tamano de textos:
 h1 = 48px
 
-p = 16px / bold
+p = 16px
 p = 14 px
 
 a = 18px / regular

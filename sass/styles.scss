@@ -3,5 +3,9 @@
 @import "estilos-generales";
 @import "helpers";
 
+@import "./partials/header";
+@import "./partials/hero-banner";
+@import "./partials/footer";
+
 @import "responsive/tablet";
 @import "responsive/mobile";

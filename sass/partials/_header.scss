@@ -1,0 +1,23 @@
+.header{
+    padding-top: 64px;
+    padding-bottom: 22px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a:first-child{
+        font-weight: 700;
+        color: $color-nav;
+    }
+
+    a{
+        color: $gray;
+
+    }
+}
+
+.menu-header{
+    display: flex;
+    gap: 48px;
+}
