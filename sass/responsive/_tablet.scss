@@ -1,0 +1,7 @@
+/* Tablet */
+@media only screen and (max-width: $tablet-breakpoint) {
+    body {
+        border-top: 10px solid blue;
+        font-size: $fontsize-default + 3;
+    }
+}

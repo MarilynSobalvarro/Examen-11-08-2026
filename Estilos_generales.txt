@@ -1,0 +1,21 @@
+Fuente letra:
+
+Tamano de textos:
+h1 = 
+h2 = 
+h3 = 
+h4 = 
+h5 = 
+
+p = 
+p = 
+p = 
+
+Colores:
+(h5)
+(h1, h2, h3)
+(h4, p)
+
+
+
+
