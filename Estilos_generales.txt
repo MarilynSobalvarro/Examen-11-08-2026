@@ -1,20 +1,24 @@
 Fuente letra:
+Mulish - h1, nav
+Open Sans - p
+DM Sans - button
 
 Tamano de textos:
-h1 = 
-h2 = 
-h3 = 
-h4 = 
-h5 = 
+h1 = 48px
 
-p = 
-p = 
-p = 
+p = 16px / bold
+p = 14 px
+
+a = 18px / regular
 
 Colores:
-(h5)
-(h1, h2, h3)
-(h4, p)
+#1F1534 (nav a, p)
+#000000 (h1)
+#89C5CC (h1)
+#7D7987 (p)
+#69B99D (btn)
+#F9F9F9 (btn a)
+
 
 
 
