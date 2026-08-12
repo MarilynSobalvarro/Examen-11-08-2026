@@ -1,7 +1,24 @@
 /* Tablet */
 @media only screen and (max-width: $tablet-breakpoint) {
-    body {
-        border-top: 10px solid blue;
-        font-size: $fontsize-default + 3;
+    // body {
+    //     border-top: 10px solid blue;
+    // }
+
+    // Header 
+    .menu-header{
+        display: none;
+    }
+
+    #menu-mobile{
+    display: flex;
+    align-items: center;
+    }
+
+    // Hero Banner
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0px;
+        gap: 50px;
     }
 }

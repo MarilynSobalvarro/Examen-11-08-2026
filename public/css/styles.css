@@ -50,6 +50,10 @@ img {
   gap: 48px;
 }
 
+#menu-mobile {
+  display: none;
+}
+
 .hero {
   display: flex;
   justify-content: space-around;
@@ -99,15 +103,24 @@ img {
 
 /* Tablet */
 @media only screen and (max-width: 1023px) {
-  body {
-    border-top: 10px solid blue;
-    font-size: 19px;
+  .menu-header {
+    display: none;
+  }
+  #menu-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0px;
+    gap: 50px;
   }
 }
 /* Movil */
 @media only screen and (max-width: 767px) {
-  body {
-    border-top: 10px solid orangered;
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
 }
 

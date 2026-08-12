@@ -1,20 +1,13 @@
 /* Movil */
 @media only screen and (max-width: $mobile-breakpoint) {
-    body {
-        border-top: 10px solid orangered;
+    // body {
+    //     border-top: 10px solid orangered;
+    // }
+
+    .hero-content{
+
+        h1{
+            font-size: rem(40);
+        }
     }
-
-    // h1,
-    // h5 {
-    //     font-size: rem();
-    //     }
-
-    // h2 {
-    //     font-size: rem();
-    // }
-
-    // h3 {
-    //     font-size: rem();
-    // }
-
 }
