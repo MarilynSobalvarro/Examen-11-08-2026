@@ -4,10 +4,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: calc(3px * 1rem);
-}
-
 a {
   font-size: calc(1.125px * 1rem);
   text-decoration: none;
@@ -20,12 +16,20 @@ img {
 
 /* HELPERS */
 .container {
-  max-width: 1280px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
 /* BUTTON */
+.btn {
+  background-color: #69B99D;
+  color: #F9F9F9;
+  font-size: 16px;
+  padding: 15px 32px;
+  border-radius: 4px;
+}
+
 .header {
   padding-top: 64px;
   padding-bottom: 22px;
@@ -44,6 +48,53 @@ img {
 .menu-header {
   display: flex;
   gap: 48px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.hero-content h1 {
+  text-transform: uppercase;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+.hero-content h1 span {
+  color: #89C5CC;
+  font-weight: 700;
+}
+.hero-content p {
+  color: #7D7987;
+  margin-bottom: 48px;
+  max-width: 450px;
+}
+.hero-content p span {
+  font-weight: 700;
+}
+.hero-content .btn {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.hero-content .btn img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.footer p {
+  text-align: center;
+}
+.footer p span {
+  font-weight: 700;
 }
 
 /* Tablet */

@@ -1,0 +1,52 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-bottom: 45px;
+}
+
+.hero-content{
+
+    h1{
+        text-transform: uppercase;
+        line-height: 150%;
+        font-weight: 400;
+        font-size: 48px;
+
+        margin-bottom: 16px;
+
+        width: 100%;
+        max-width: 500px;
+
+        span{
+            color: $light-blue;
+            font-weight: 700;
+        }
+    }
+
+    p{
+        color: $gray;
+
+        margin-bottom: 48px;
+        max-width: 450px;
+
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .btn{
+        display: inline-flex;
+        flex-direction: row-reverse;
+        
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+
+        img{
+            width: 100%;
+            max-width: 24px;
+        }
+    }
+}
